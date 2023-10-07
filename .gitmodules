@@ -7,3 +7,6 @@
 [submodule "honeycomb-openscad"]
 	path = honeycomb-openscad
 	url = https://github.com/smkent/honeycomb-openscad
+[submodule "gridfinity-rebuilt-openscad"]
+	path = gridfinity-rebuilt-openscad
+	url = https://github.com/kennetek/gridfinity-rebuilt-openscad
