@@ -4,3 +4,6 @@
 [submodule "BOSL"]
 	path = BOSL
 	url = https://github.com/revarbat/BOSL
+[submodule "honeycomb-openscad"]
+	path = honeycomb-openscad
+	url = https://github.com/smkent/honeycomb-openscad
