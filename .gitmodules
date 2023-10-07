@@ -14,3 +14,7 @@
 	branch = main
 	path = gridfinity-rebuilt-openscad
 	url = https://github.com/kennetek/gridfinity-rebuilt-openscad
+[submodule "Chamfers-for-OpenSCAD"]
+	path = Chamfers-for-OpenSCAD
+	url = https://github.com/SebiTimeWaster/Chamfers-for-OpenSCAD
+	branch = master
