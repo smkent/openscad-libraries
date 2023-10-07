@@ -1,12 +1,16 @@
 [submodule "BOSL2"]
+	branch = master
 	path = BOSL2
 	url = https://github.com/BelfrySCAD/BOSL2
 [submodule "BOSL"]
+	branch = master
 	path = BOSL
 	url = https://github.com/revarbat/BOSL
 [submodule "honeycomb-openscad"]
+	branch = main
 	path = honeycomb-openscad
 	url = https://github.com/smkent/honeycomb-openscad
 [submodule "gridfinity-rebuilt-openscad"]
+	branch = main
 	path = gridfinity-rebuilt-openscad
 	url = https://github.com/kennetek/gridfinity-rebuilt-openscad
