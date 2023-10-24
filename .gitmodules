@@ -18,3 +18,7 @@
 	path = Chamfers-for-OpenSCAD
 	url = https://github.com/SebiTimeWaster/Chamfers-for-OpenSCAD
 	branch = master
+[submodule "knurled-openscad"]
+	path = knurled-openscad
+	url = https://github.com/smkent/knurled-openscad
+	branch = main
