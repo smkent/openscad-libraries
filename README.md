@@ -40,10 +40,40 @@ libraries directory, you can configure OpenSCAD with alternative or additional
 libraries directories. [See the OpenSCAD documentation][openscad-libraries] for
 more information.
 
+## Usage as a submodule
+
+This repository may itself be used as a submodule. For example,
+[smkent/monoscad][monoscad] uses this repository as a submodule to bundle
+models with their libraries.
+
+To use, first add this repository as a new submodule:
+
+```console
+cd your-project
+git submodule add https://github.com/smkent/openscad-libraries
+```
+
+Add and commit `.gitmodules` in your repository:
+
+```console
+git add .gitmodules
+git commit -m "Add openscad-libraries submodule"
+```
+
+Finally, initialize openscad-libraries along with all child submodule contents:
+
+```console
+git submodule update --init --recursive
+```
+
+The above command should also be performed in new clones of your project
+repository.
+
 ## License
 
 Third party libraries have their own licenses.
 
 
 [git-submodules]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
+[monoscad]: https://github.com/smkent/monoscad
 [openscad-libraries]: https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries
